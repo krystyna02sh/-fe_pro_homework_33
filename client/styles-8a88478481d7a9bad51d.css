@@ -6,18 +6,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(69d478bf0e1a2fa7fb68.woff2) format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "DMSans";
-  src: local("DMSans"), url(97fe1aaedfa68d66cc7b.woff2) format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
 
 a {
   color: inherit;
@@ -49,14 +37,10 @@ html {
   padding-bottom: 10px;
 }
 
-.hidden {
-  display: none !important;
-}
 ul {
   list-style-type: none;
 }
 .item {
-  font-family: "DMSans", sans-serif;
   font-weight: 400;
   color: #222222;
   margin-right: 10px;
